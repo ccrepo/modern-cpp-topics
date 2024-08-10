@@ -1,0 +1,14 @@
+#!/bin/bash
+
+. ./env
+
+cd ..
+
+#pwd
+
+#./gradlew runTest
+
+echo "RUNDIR $RUNDIR"
+
+"$RUNDIR/code" -h
+
